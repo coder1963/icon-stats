@@ -11,7 +11,7 @@ from icon_stats.db_config import DbConfigs
 class Settings(BaseSettings):
     # General
     NAME: str = "stats"
-    VERSION: str = "v0.2.6"  # x-release-please-version
+    VERSION: str = "v0.3.0"  # x-release-please-version
     NETWORK_NAME: str = "mainnet"
 
     # Exchanges
